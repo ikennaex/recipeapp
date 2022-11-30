@@ -1,0 +1,45 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.card img {
+width: 100%;
+border-radius: 10px;
+}
+
+.meal-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    margin-top: 100px;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: rgb(31, 31, 31);
+    overflow: auto;
+}
+
+.card:hover {
+    box-shadow: 1px 9px 2px 1px rgba(167, 167, 167, 0.2);
+}
+
+.info {
+    text-align: center;
+    color: white;
+}
+
+.recipe {
+    margin-top: 20px;
+    color: white;
+}
+
+

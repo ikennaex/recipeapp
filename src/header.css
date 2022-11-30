@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+.title h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 90px;
+    font-weight: 100;
+    color: #212529;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    padding-right: 10px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 20px;
+    background: #D8EDDE;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background: #0e852c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.food-img{
+    width: 800px;
+    height: 400px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
