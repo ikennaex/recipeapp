@@ -1,5 +1,6 @@
 import React, {useState}from "react"
 import Meals from "./Meals"
+import Result from "./Result"
 import "./header.css"
 import foodimg from "./assets/images/foodimg.jpg"
 
@@ -16,7 +17,6 @@ function Header() {
             fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
             .then(res => res.json())
             .then(data => {
-                // console.log(data)
                 setMeal(data.meals)
                 console.log(myMeal)
             })
@@ -27,7 +27,6 @@ function Header() {
         fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
         .then(res => res.json())
         .then(data => {
-            // console.log(data)
             setMeal(data.meals)
             console.log(myMeal)
         })
@@ -47,9 +46,17 @@ function Header() {
 
         <div className='meal-section'>
         {
-            (myMeal == null)? <p>Not Found</p> : myMeal.map((res) => {
+            (myMeal == null)? <p></p> : myMeal.map((res) => {
                 return(
                     <Meals data = {res}/>
+                )
+            })
+        }
+
+        {
+            (myMeal == null)? <p></p> : myMeal.map((res) => {
+                return(
+                    <Result data = {res}/>
                 )
             })
         }

@@ -1,0 +1,18 @@
+.food-description img{ 
+    border-radius: 5px;
+}
+
+.food-description {
+    text-align: center;
+
+}
+
+.recipe-result {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.recipe-steps {
+    padding-left: 20px;
+}

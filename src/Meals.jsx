@@ -15,6 +15,7 @@ function Meals(getMeal) {
                 <h3>Recipe</h3>
                 <p>{getMeal.data.strInstructions}</p>
             </div>
+            
             </div>
         </>
 
