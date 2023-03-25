@@ -1,0 +1,20 @@
+.contactme {
+    margin-top: 120px;
+}
+
+.contactme h2, p{
+    text-align: center;
+}
+
+.contactme div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}

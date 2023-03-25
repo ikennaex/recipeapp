@@ -1,7 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,400&display=swap');
+* {
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
 
-.container {
-  margin: 10px 100px;
+.margin {
+    margin: 0rem 8rem;
+}
+
+a:link{
+    text-decoration: none;
+    color: none;
+
+}
+
+@media screen and (max-width: 1050px) {
+    .margin {
+        margin: 0rem 3rem;
+    }
 }

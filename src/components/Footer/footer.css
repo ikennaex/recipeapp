@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer div {
+    margin: 10px;
+}
+
+.icons {
+    color: black;
+}
+
+.icons:hover {
+    color: #5e5d5b;
+}

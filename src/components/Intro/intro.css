@@ -1,0 +1,85 @@
+.intro-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+
+.intro-text h1 {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 80px;
+
+    background:radial-gradient(ellipse at 50% 50%, rgba(143, 0, 255, 1) 0%, rgba(0, 80, 154, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-text h2 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #505050;
+}
+
+.intro-text {
+    margin-top: 100px;
+}
+
+.intro-text p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #505050;
+    text-align: left;
+}
+
+.img-div img {
+    height: 400px;
+    width: 400px;
+}
+
+@media screen and (max-width: 1050px) {
+    .intro-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro-text h1 {
+        font-size: 55px;
+    }
+
+    .intro-text h2 {
+        font-size: 45px;
+    }
+
+    .intro-text {
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .img-div img {
+        height: 350px;
+        width: 350px;
+    }
+
+
+    .nav-menu {
+        display: flex;
+        
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .intro-text h2 {
+        font-size: 25px;
+    }
+
+    .intro-text h1 {
+        font-size: 28px;
+    }
+}

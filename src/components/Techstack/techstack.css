@@ -1,0 +1,56 @@
+.tech-stack {
+    margin-top: 120px;
+}
+
+.html,
+.css,
+.bootstrap,
+.js,
+.react,
+.node,
+.express,
+.tailwind,
+.git,
+.photoshop,
+.figma {
+    height: 100px;
+    width: 100px;
+}
+
+.bootstrap {
+    width: 120px;
+}
+
+.react {
+    width: 120px;
+}
+
+.figma {
+    width: 140px;
+}
+
+.tech-stack-txt{
+    text-align: center;
+}
+
+.tech-stack-items {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.tech-stack-items div {
+    width: 20%;
+    margin-top: 30px;
+    
+}
+
+@media screen and (max-width: 1050px) {
+    .tech-stack-items div {
+        width: 50%;
+        margin-top: 30px;
+        
+    }
+}
